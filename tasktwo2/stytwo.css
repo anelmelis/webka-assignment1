@@ -24,7 +24,7 @@ body {
 .nav a {
     color: rgb(227, 133, 182);
     text-decoration: none;
-    margin-right: 25px;
+    margin-right: 90px;
 }
 
 .nav a:hover {
@@ -33,16 +33,16 @@ body {
 
 .sidebar {
     float: left;
-    width: 25%;
+    width: 20%;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid #3da5ad;
     box-shadow: 2px 2px 5px #999;
 }
 
 .main {
     float: right;
-    width: 60%;
+    width: 75%;
     background-color: white;
     padding: 15px;
     border: 2px solid #3da5ad;
