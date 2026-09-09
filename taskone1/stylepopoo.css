@@ -1,0 +1,65 @@
+body {
+    background-color: #fff4e5;
+    font-family: 'Courier New', Courier, monospace ;
+    color: #181818;
+    margin: 20px;
+    padding: 20px;
+}
+
+#title {
+    color: #3da5ad;
+    text-align: center;
+}
+
+h2 {
+    color: #350e73;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.profcard {
+    background-color: rgb(255, 189, 189);
+    border: 2px solid #50bb87;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+.profcard img {
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid #9f2980;
+}
+
+.lists{
+    display: flex;
+    gap: 70px;
+}
+
+.skills, .hobbies {
+    background-color: white;
+    border: 1px solid #3da5ad;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+a {
+    color: #5b3a8a;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+@media (max-width: 600px) {
+    .lists {
+        flex-direction: column;
+    }
+}
