@@ -1,0 +1,59 @@
+body {
+    background-color: #fff4e5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+    color: #181818;
+}
+
+.heheMJ {
+    background-color: #f4c6c6;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #50bb87;
+    margin-bottom: 10px;
+}
+
+.nav {
+    background-color: #adc292;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #50bb87;
+}
+
+.nav a {
+    color: rgb(227, 133, 182);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.nav a:hover {
+    color: #b41a12;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #3da5ad;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.main {
+    float: right;
+    width: 60%;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #3da5ad;
+    box-shadow: 2px 2px 2px #999;
+}
+
+.foot {
+    clear: both;
+    background-color: #fbd4d4;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid #50bb87;
+}
