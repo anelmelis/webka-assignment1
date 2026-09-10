@@ -1,0 +1,86 @@
+body {
+    background-color: #f9f3ea;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 30px;
+}
+
+#patt {
+    color: rgb(40, 13, 114);
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto 40px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid rgb(71, 71, 71);
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(79, 127, 124);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f7ecde;
+}
+
+.row {
+    background-color: #e4f4f5;
+}
+
+.feedback {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #cce6e6;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.feedback label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.feedback input,
+.feedback select,
+.feedback textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.radio {
+    margin-bottom: 15px;
+}
+.radio label{
+    display: inline;
+    margin: 0 10px 0 3px;
+}
+
+.radio input {
+    width: auto;
+}
+
+button {
+    background-color: rgb(53, 94, 133);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(207, 13, 13);
+}

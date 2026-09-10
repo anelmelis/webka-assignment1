@@ -1,0 +1,72 @@
+<html> <head>
+    <title>Task 4 - Table and Form</title>
+    <link rel="stylesheet" href="stylef.css">
+</head>
+
+<body>
+    <h1 id="patt">Student Grades</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Anel</td>
+            <td>Web Programming</td>
+            <td>90</td>
+        </tr>
+
+        <tr class="row">
+            <td>Aziza</td>
+            <td>Algorithms</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>Daniyar</td>
+            <td>Java</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Average Grade</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+
+    <h1>Feedback Form</h1>
+    <form class="feedback">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Other</option>
+        </select>
+
+        <label>Did you like the website?</label>
+        <div class="radio">
+            <input type="radio" id="yes" name="answer" value="yes">
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="answer" value="no">
+            <label for="no">No</label>
+        </div>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
