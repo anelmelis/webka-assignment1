@@ -25,7 +25,7 @@ A student grades table styled with CSS, including borders, alternating row color
 
 ## Technologies
 * HTML
-* CSS3
+* CSS
 
 ## Student 
 Melis Anel
