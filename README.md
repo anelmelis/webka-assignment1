@@ -24,7 +24,7 @@ A student grades table styled with CSS, including borders, alternating row color
 4. Each task can also be opened directly from its corresponding folder.
 
 ## Technologies
-* HTML5
+* HTML
 * CSS3
 
 ## Student 
