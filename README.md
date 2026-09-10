@@ -19,7 +19,7 @@ A student grades table styled with CSS, including borders, alternating row color
 
 ## How to Use
 1. Open the project repository.
-2. Open `tasktwo2/index.html` in a web browser.
+2. Open `tasktwo2/twoo.html` in a web browser.
 3. Use the navigation bar to move between Tasks 1, 2, 3, and 4.
 4. Each task can also be opened directly from its corresponding folder.
 
